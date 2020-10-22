@@ -55,16 +55,16 @@
                 apie tai kas svarbu Mūsų bendruomenei.
               </p>
               <p class="text-lg leading-relaxed m-4 text-gray-600">
-                Pasiūlymas kol neturim namo bendruomenės:
-                <li class="text-lg leading-relaxed m-4 text-gray-600"> Facebook grupėje bendraujame visais einamaisiais klausimais </li>
-                <li class="text-lg leading-relaxed m-4 text-gray-600">Naujai sukurta Google grupe kurioje sprestumėme daugiau ilgalaikius
+                Pasiūlymas kol neturim namo bendrijos:
+                <li class="text-lg leading-relaxed m-4 text-gray-600">Facebook grupėje bendraujame visais einamaisiais klausimais</li>
+                <li class="text-lg leading-relaxed m-4 text-gray-600">Naujai sukurta Google grupe (mailing list), kurioje sprestumėme daugiau ilgalaikius
                 klausimus</li>
                 <li class="text-lg leading-relaxed m-4 text-gray-600"> Į grupę bus priimami nariai, kurie
-                prašantis nurodys būtą ir namą, kuriame gyvenate. Tuo pačiu sudarysime visiems
+                prašantis nurodys būtą ir aukštą, kuriame gyvenate. Tuo pačiu sudarysime visiems
                 prieinama sąrašą. Tai avarijos atveju, žinosime kur ieškoti kas yra kas.
                 Grupė yra privati, tai duomenys prieinami tik jos nariams.</li>
                 <li class="text-lg leading-relaxed m-4 text-gray-600"><b> SVARBIAUSIA:</b> Grupė bus skirta tik svarbiems klausimams,
-                o kačiukų ir Parkingo klausimus paliekame Facebook</li>
+                o kačiukų ir parkingo klausimus paliekame Facebook</li>
               </p>
             </div>
             <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
