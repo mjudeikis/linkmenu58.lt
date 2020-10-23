@@ -1,9 +1,7 @@
 import Vue from 'vue';
 import Landing from './views/Landing.vue';
-import Practices from './views/Practices.vue';
-import Team from './views/Team.vue';
-import Tools from './views/Tools.vue';
-import Fix from './views/Fix.vue';
+import Contacts from './views/Contacts.vue';
+import About from './views/About.vue';
 import App from './App.vue'
 import VueAnalytics from 'vue-analytics'
 import VueRouter from 'vue-router'
@@ -20,29 +18,41 @@ const routes = [
     component: Landing
   },
   {
-    path: '/practices',
-    name: 'practices',
-    component: Practices,
+    path: '/kontaktai',
+    name: 'Contacts',
+    component: Contacts,
   },
   {
-    path: '/team',
-    name: 'team',
-    component: Team,
+    path: '/apie',
+    name: 'apie',
+    component: About,
   },
   {
-    path: '/tools',
-    name: 'tools',
-    component: Tools,
+    path: '/facebook',
+    name: 'facebook',
+    beforeEnter() {location.href = 'https://www.facebook.com/groups/linkmenuezerai3'},
   },
   {
-    path: '/fix',
-    name: 'fix',
-    component: Fix,
+    path: '/f',
+    name: 'f',
+    beforeEnter() {location.href = 'https://www.facebook.com/groups/linkmenuezerai3'},
+  },
+  {
+    path: '/google',
+    name: 'google',
+    beforeEnter() {location.href = 'https://groups.google.com/u/1/g/linkmenu58'},
+  },
+  {
+    path: '/g',
+    name: 'g',
+    beforeEnter() {location.href = 'https://groups.google.com/u/1/g/linkmenu58'},
   }
 ]
 
 const router = new VueRouter({
-  routes
+  routes,
+  hash: false,
+  mode: 'history',
 })
 
 Vue.use(VueAnalytics, {

@@ -8,7 +8,7 @@
       >
         <div
           class="absolute top-0 w-full h-full bg-center bg-cover"
-          style='background-image: url("https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");'
+          :style="{ backgroundImage: 'url(' + require('@/assets/img/le.jpg') + ')'}"
         >
           <span
             id="blackOverlay"
@@ -20,10 +20,12 @@
             <div class="w-full lg:w-6/10 px-4 ml-auto mr-auto text-center">
               <div class="pr-12">
                 <h1 class="text-white font-semibold text-5xl">
-                  Linkmenų g. 58
+                  Linkmenų g. 58  bendruomenė
                 </h1>
-                <p class="mt-4 text-lg text-gray-300">
-                  bendruomenė
+                 <p class="mt-4 text-lg text-gray-300">
+                Facebook grupė: <a href="https://www.linkmnenu58.lt/facebook">linkmnenu58.lt/facebook</a>
+                </br>
+                Google pašto grupė: <a href="https://www.linkmnenu58.lt/google">linkmnenu58.lt/google</a>
                 </p>
               </div>
             </div>
@@ -50,21 +52,23 @@
               >
                <p class="text-lg leading-relaxed m-4 text-gray-600">
                 Nors turime 3 Facebook grupes, bendravimas ir problemų sprendimas
-                stringa. Norėtųsi, kad galetumem bendrauti ir dalintis naujienomis
+                stringa. Norėtųsi, kad galėtumem bendrauti ir dalintis naujienomis
                 efektyviau. Ta proga atsirado šis puslapis, kuriame rasite visą inforamciją
                 apie tai kas svarbu Mūsų bendruomenei.
+                Tačiau patys suprantame, kad turbūt čia daugiau neužsuksite :D tai siūlome:
               </p>
               <p class="text-lg leading-relaxed m-4 text-gray-600">
-                Pasiūlymas kol neturim namo bendrijos:
+               <b>Pasiūlymas, kol neturim namo bendrijos:</b>
                 <li class="text-lg leading-relaxed m-4 text-gray-600">Facebook grupėje bendraujame visais einamaisiais klausimais</li>
-                <li class="text-lg leading-relaxed m-4 text-gray-600">Naujai sukurta Google grupe (mailing list), kurioje sprestumėme daugiau ilgalaikius
+                <li class="text-lg leading-relaxed m-4 text-gray-600">Naujai sukurta Google grupe (mailing list), kurioje spręstumėme daugiau ilgalaikius
                 klausimus</li>
-                <li class="text-lg leading-relaxed m-4 text-gray-600"> Į grupę bus priimami nariai, kurie
-                prašantis nurodys būtą ir aukštą, kuriame gyvenate. Tuo pačiu sudarysime visiems
-                prieinama sąrašą. Tai avarijos atveju, žinosime kur ieškoti kas yra kas.
-                Grupė yra privati, tai duomenys prieinami tik jos nariams.</li>
                 <li class="text-lg leading-relaxed m-4 text-gray-600"><b> SVARBIAUSIA:</b> Grupė bus skirta tik svarbiems klausimams,
                 o kačiukų ir parkingo klausimus paliekame Facebook</li>
+              </p>
+                <p class="text-lg leading-relaxed m-4 text-gray-600">
+                Kad būtų patogiau atsiminti:
+                <li class="text-lg leading-relaxed m-4 text-gray-600">Facebook: <a href="https://www.linkmnenu58.lt/facebook">linkmnenu58.lt/facebook</a></li>
+                <li class="text-lg leading-relaxed m-4 text-gray-600">Google: <a href="https://www.linkmnenu58.lt/google">linkmnenu58.lt/google</a></li>
               </p>
             </div>
             <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
@@ -121,12 +125,34 @@
         </div>
         <div class="container mx-auto px-4">
           <div class="items-center flex flex-wrap">
-            <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
-              <img
-                alt="..."
-                class="max-w-full rounded-lg shadow-lg"
-                src="https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80"
-              />
+
+            <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+              <div
+                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-pink-600"
+              >
+                <img
+                  alt="..."
+                   src="https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80"
+                  class="w-full align-middle rounded-t-lg"
+                />
+                <blockquote class="relative p-8 mb-4">
+                  <svg
+                    preserveAspectRatio="none"
+                    xmlns="https://www.w3.org/2000/svg"
+                    viewBox="0 0 583 95"
+                    class="absolute left-0 w-full block"
+                    style="height: 95px; top: -94px;"
+                  >
+                    <polygon
+                      points="-30,95 583,95 583,65"
+                      class="text-pink-600 fill-current"
+                    ></polygon>
+                  </svg>
+                  <h4 class="text-xl font-bold text-white">
+                    Naujienos
+                  </h4>
+                </blockquote>
+              </div>
             </div>
             <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
               <div class="md:pr-12">
@@ -135,10 +161,9 @@
                 >
                   <i class="fas fa-thumbtack"></i>
                 </div>
-                <h3 class="text-3xl font-semibold">Naujienos</h3>
                <h4 class="text-gray-600">
-                 Vyksta balsavimas, dėl koondicionierių įsirengimo. Prašome visų prabalsuoti:
-                 https://www.ebustas.lt/apklausos arba eBustas aplikacijoje.
+                Vyksta balsavimas, dėl koondicionierių įsirengimo. Prašome visų prabalsuoti:
+                 <a href="https://www.ebustas.lt/apklausos">https://www.ebustas.lt/apklausos</a> arba eBustas aplikacijoje.
                </h4>
               </div>
             </div>
