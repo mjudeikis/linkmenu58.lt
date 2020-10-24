@@ -23,9 +23,9 @@
                   Linkmenų g. 58  bendruomenė
                 </h1>
                  <p class="mt-4 text-lg text-gray-300">
-                Facebook grupė: <a href="https://www.linkmnenu58.lt/facebook">linkmnenu58.lt/facebook</a>
+                Facebook grupė: <a href="https://www.linkmenu58.lt/#/facebook">linkmenu58.lt/#/facebook</a>
                 </br>
-                Google pašto grupė: <a href="https://www.linkmnenu58.lt/google">linkmnenu58.lt/google</a>
+                Google pašto grupė: <a href="https://www.linkmenu58.lt/#/google">linkmenu58.lt/#/google</a>
                 </p>
               </div>
             </div>
@@ -45,30 +45,35 @@
                 <i class="fas fa-list text-xl"></i>
               </div>
               <h3 class="text-3xl mb-2 font-semibold leading-normal">
-                Komunikacija
+                Apie puslapį
               </h3>
               <p
                 class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700"
               >
                <p class="text-lg leading-relaxed m-4 text-gray-600">
-                Nors turime 3 Facebook grupes, bendravimas ir problemų sprendimas
-                stringa. Norėtųsi, kad galėtumem bendrauti ir dalintis naujienomis
-                efektyviau. Ta proga atsirado šis puslapis, kuriame rasite visą inforamciją
-                apie tai kas svarbu Mūsų bendruomenei.
-                Tačiau patys suprantame, kad turbūt čia daugiau neužsuksite :D tai siūlome:
+                Nors turime tris „Facebook“ grupes, bendravimas ir problemų
+                sprendimas stringa. Norėtųsi, kad su namais susijusius klausimus
+                pavyktų spręsti efektyviau. Būtent tam ir skirtas šis puslapis,
+                kuriame rasite visą informaciją apie tai, kas svarbu mūsų bendruomenei.
               </p>
               <p class="text-lg leading-relaxed m-4 text-gray-600">
-               <b>Pasiūlymas, kol neturim namo bendrijos:</b>
-                <li class="text-lg leading-relaxed m-4 text-gray-600">Facebook grupėje bendraujame visais einamaisiais klausimais</li>
-                <li class="text-lg leading-relaxed m-4 text-gray-600">Naujai sukurta Google grupe (mailing list), kurioje spręstumėme daugiau ilgalaikius
-                klausimus</li>
-                <li class="text-lg leading-relaxed m-4 text-gray-600"><b> SVARBIAUSIA:</b> Grupė bus skirta tik svarbiems klausimams,
-                o kačiukų ir parkingo klausimus paliekame Facebook</li>
-              </p>
-                <p class="text-lg leading-relaxed m-4 text-gray-600">
-                Kad būtų patogiau atsiminti:
-                <li class="text-lg leading-relaxed m-4 text-gray-600">Facebook: <a href="https://www.linkmnenu58.lt/facebook">linkmnenu58.lt/facebook</a></li>
-                <li class="text-lg leading-relaxed m-4 text-gray-600">Google: <a href="https://www.linkmnenu58.lt/google">linkmnenu58.lt/google</a></li>
+               <b>Tačiau, žinoma, čia dažnai neužsuksite, tad kol neturime namo
+                  bendrijos, siūlome</b>
+                <li class="text-lg leading-relaxed m-4 text-gray-600">
+                  Pagrindinėje „Facebook“ grupėje (<a href="https://linkmenu58.lt/#/facebook">linkmenu58.lt/#/facebook</a>)
+                  bendrauti visais šiuo metu aktualiais klausimais.
+                </li>
+                <li class="text-lg leading-relaxed m-4 text-gray-600">
+                  Naujoje „Google“ grupėje (<a href="https://linkmenu58.lt/#/google">linkmenu58.lt/#/google</a>) galime
+                  spręsti ilgalaikius klausimus (pvz. sugedę garažo vartai,
+                  bendruomenės kūrimas, pirmininko rinkimai ir kt.)
+                </li>
+                <li class="text-lg leading-relaxed m-4 text-gray-600">
+                  <b>(!)</b> „Facebook“ grupė skirta tik šiuo metu svarbiems ir
+                  greitai išsprendžiamiems klausimams, o „Google“ palikime
+                  klausimus, kurių svarbu nepamesti ir rasti informaciją po
+                  kurio laiko.
+                </li>
               </p>
             </div>
             <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
@@ -94,7 +99,8 @@
                     ></polygon>
                   </svg>
                   <h4 class="text-xl font-bold text-white">
-                    Visų pagrindinių komunikacijos kanalų nuorodos yra viršuje, dešinėje
+                    Visų pagrindinių komunikacijos kanalų nuorodos yra viršuje,
+                    dešinėje
                   </h4>
                 </blockquote>
               </div>
@@ -162,8 +168,12 @@
                   <i class="fas fa-thumbtack"></i>
                 </div>
                <h4 class="text-gray-600">
-                Vyksta balsavimas, dėl koondicionierių įsirengimo. Prašome visų prabalsuoti:
-                 <a href="https://www.ebustas.lt/apklausos">https://www.ebustas.lt/apklausos</a> arba eBustas aplikacijoje.
+                Šiuo metu vyksta balsavimas dėl kondicionerių įsirengimo butuose.
+                Prašome būstų savininkų dalyvauti balsavime:
+                <a href="https://www.ebustas.lt/apklausos">
+                https://www.ebustas.lt/apklausos
+                </a>
+                arba eBustas programėlėje.
                </h4>
               </div>
             </div>
